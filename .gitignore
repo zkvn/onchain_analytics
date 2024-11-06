@@ -1,0 +1,9 @@
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Temperary files
+old
+
+# Environments
+venv/
