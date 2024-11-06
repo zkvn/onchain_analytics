@@ -14,6 +14,7 @@ You will need a CHAINSTACK execution client https endpoint to run it.  See below
 4. Update the ChainStack Https Endpoint address in conf.py (see below)
 5. Run it
 `python monitor.py`
+6. Results will be display on screen and logged into pending_transactions.log
 
 # Get a ChainStack execution client https endpoint
 1. Register a free account on ChainStack
