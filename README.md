@@ -4,17 +4,18 @@ This is a simple demo of connecting to Ethereum mainnet and monitoring the trans
 You will need a CHAINSTACK execution client https endpoint to run it.  See below for more details.
 
 # Installation
-1. Create a venv folder for all dependencies
+1. Clone this git to a local folder and CD into it
+2. Create a venv folder for all dependencies
 `python -m venv "venv"`
-2. Activate it 
+3. Activate it 
 `source venv/bin/activate`  (linux/mac)
 `./venv/scripts/activate`   (Windows)
-3. Install the dependencies 
+4. Install the dependencies 
 `python -m pip install -r requirements.txt`
-4. Update the ChainStack Https Endpoint address in conf.py (see below)
-5. Run it
+5. Update the ChainStack Https Endpoint address in conf.py (see below)
+6. Run it
 `python monitor.py`
-6. Results will be displayed on screen and logged into pending_transactions.log
+7. Results will be displayed on screen and logged into pending_transactions.log
 
 # Get a ChainStack execution client https endpoint
 1. Register a free account on ChainStack
